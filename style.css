@@ -1,0 +1,28 @@
+.main-wrp
+{
+	max-width: 1366px;
+	height: auto;
+	margin: 0 auto;
+	background: #222222;
+}
+
+.main-wrp >.head-wrp
+{
+	width: 100%;
+	height: 110px;
+}
+
+.main-wrp >.head-wrp > .nav-cont > nav > ul > li
+{
+	display: inline;	
+	
+}
+
+.main-wrp >.head-wrp > .nav-cont > nav > ul > li > a
+{
+	text-decoration: none;
+
+	color: #66636c;
+}
+
+
