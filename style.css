@@ -12,17 +12,36 @@
 	height: 110px;
 }
 
+.main-wrp > .body-wrp
+{
+	position: absolute;
+	width: 85%;
+}
+
+.main-wrp >.body-wrp > .nav-cont
+{
+	
+	display: inline-block;
+	float: left;
+	margin: auto;
+}
+
 .main-wrp >.head-wrp > .nav-cont > nav > ul > li
 {
-	display: inline;	
+	display: inline-block;	
 	
 }
 
 .main-wrp >.head-wrp > .nav-cont > nav > ul > li > a
 {
 	text-decoration: none;
+	color: #8f8d8e;
+}
 
-	color: #66636c;
+.icon-wrp
+{	
+	display: inline-block;	
+	max-height: 423px;
 }
 
 
